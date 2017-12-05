@@ -122,9 +122,6 @@ body {
 					top: 65px;
 				}
 			}
-			@media (max-width: 991px) {
-				top: -43px;
-			}
 			@media (max-width: 381px) {
 				left: -6px;
 			}
@@ -138,13 +135,13 @@ body {
 				top: 15%;
 				left: 50.4%;
 			}
+			@media (max-width: 1200px) {
+				left: 120.4%;
+			}
 			@media (max-width: 1024px) {
 				@-moz-document url-prefix() {
 					top: 65px;
 				}
-			}
-			@media (max-width: 991px) {
-				top: -42px;
 			}
 			@media (max-width: 381px) {
 				left: 0;
@@ -276,9 +273,7 @@ body {
 			height: 1px;
 			position: absolute;
 			top: 200px;
-			margin-left: auto;
-			margin-right: auto;
-			left: -225px;
+			left: 45px;
 			right: 0;
 			z-index: 4;
 		}
